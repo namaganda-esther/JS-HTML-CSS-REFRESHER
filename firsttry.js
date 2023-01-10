@@ -74,11 +74,43 @@ document.write("exit");
 // if Else condition
 let target = 30;
 if (target >= 50){
-   // document.write("person can get commission");
    console.log("person can get commission");
 }
 else (target <= 49)
-   // document.write("not eligible for commission");
    console.log("not eligible for commission");
 
 document.write("thats the rule");
+
+// another if else example
+let num = 7;
+if(num %2==0) {
+   console.log("number is even");
+}
+else{
+   console.log("number is odd");
+}
+
+// another example of if else muptiple else conditions
+let a=10, b = 20, c= 30;
+if(a>b&&a>c){
+   console.log("a is the biggest number");
+}
+else if(b>a&&b>c){
+   console.log("b is the biggest number");
+}
+else{
+   console.log("c is the biggest number");
+}
+
+// using the switch statement
+let weekno = 4;
+switch(weekno){
+   case 1: console.log("sunday");break;
+   case 2: console.log("monday");break;
+   case 3: console.log("tuesday");break;
+   case 4: console.log("wednesday");break;
+   case 5: console.log("thursday");break;
+   case 6: console.log("friday");break;
+   case 7: console.log("saturday");break;
+   default: console.log("invalid week no");
+}
