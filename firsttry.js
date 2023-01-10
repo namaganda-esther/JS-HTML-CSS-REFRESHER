@@ -58,3 +58,27 @@ document.write(gender);
 // gender = "male";// incorrecnt syntax because the value cannot be changed.
 // console.log(gender);
 // document.write(gender);
+
+
+// conditional statements
+// if condition
+let age = 18;
+
+if (age >=18) { 
+   document.write("person is an adult");
+   console.log("person is an adult");
+}
+document.write("exit");
+
+
+// if Else condition
+let target = 30;
+if (target >= 50){
+   // document.write("person can get commission");
+   console.log("person can get commission");
+}
+else (target <= 49)
+   // document.write("not eligible for commission");
+   console.log("not eligible for commission");
+
+document.write("thats the rule");
