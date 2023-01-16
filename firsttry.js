@@ -114,3 +114,69 @@ switch(weekno){
    case 7: console.log("saturday");break;
    default: console.log("invalid week no");
 }
+
+// loops and jumping statements
+// while loop
+// numbers 1 to 10
+let m=1;
+while(m<=10){
+   console.log(m);
+   m++;
+}
+
+// while loop even numbers 1 to 10
+let n=2;
+while(n<=10){
+   console.log(n);
+   n+=2;//n=n+2
+}
+
+
+// do while loop
+// numbers between 1 and 10 in descending order
+let s = 10;
+do{
+   console.log(s);
+   s--;
+}
+while(s>=1);
+
+
+// for loop
+for(let k=1;k<=10;k++){
+   console.log(k);
+}
+
+// Functions in Javascript
+// simple add function
+function add(c,v)
+{
+  console.log(c+v);
+}
+add(35,55);
+
+
+// simple function with a return statement
+function add(o,r)
+{
+   return(o+r);
+}
+let result = add(25,35);
+console.log(result);
+
+
+// simple string function without arguments
+function greetings()
+{
+   console.log("Hey Good Morning...");
+}
+greetings();
+
+
+// simple string function without arguments with a return statement
+function greetings()
+{
+   return("Hey Good Morning...");
+}
+let msg = greetings();
+console.log(msg);
